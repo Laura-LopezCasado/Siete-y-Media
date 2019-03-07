@@ -10,8 +10,8 @@ public class Baraja {
 		
 		baraja = new Carta[40];
 		
-		for(i = 1; i < 4; i++) {
-			for(j = 1; j < 10; j++) {
+		for(i = 0; i < 4; i++) {
+			for(j = 0; j < 10; j++) {
 				baraja[k] = new Carta(Valor.values()[j], Palo.values()[i]);
 				k++;
 			}

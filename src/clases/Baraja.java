@@ -4,11 +4,7 @@ import java.util.Arrays;
 
 public class Baraja {
 	private Carta[] baraja;
-	/**
-	 * Constructor de la baraja.
-	 * Genera la baraja en orden mediante dos bucles, uno que recorre el número de la carta 
-	 * y el otro que recorre el Palo de la misma.
-	 */
+
 	public Baraja() {
 		int i, j, k = 0;
 		
